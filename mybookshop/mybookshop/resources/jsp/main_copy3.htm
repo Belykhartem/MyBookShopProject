@@ -1,0 +1,505 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="CSS/style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImagesArray(array) {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<array.length; i+=2) {
+			document[array[i]].src = array[i+1];
+		}
+	}
+}
+
+function changeImages() {
+	changeImagesArray(changeImages.arguments);
+}
+
+function toggleImages() {
+	for (var i=0; i<toggleImages.arguments.length; i+=2) {
+		<!-- if (selected == toggleImages.arguments[i]) -->
+		      changeImagesArray(toggleImages.arguments[i+1]);
+	}
+}
+
+var selected = '';
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		novosti_2 = newImage("../graphics/novosti_2.gif");
+		novosti_0 = newImage("../graphics/novosti_0.gif");
+		
+		bestseller_2 = newImage("../graphics/bestseller_2.gif");
+		bestseller_0 = newImage("../graphics/bestseller_0.gif");
+
+		novinki_2 = newImage("../graphics/novinki_2.gif");
+		novinki_0 = newImage("../graphics/novinki_0.gif");
+		
+		rasprod_2 = newImage("../graphics/rasprod_2.gif");
+		rasprod_0 = newImage("../graphics/rasprod_0.gif");
+		
+		zagruzka_2 = newImage("../graphics/zagruzka_2.gif");
+		zagruzka_0 = newImage("../graphics/zagruzka_0.gif");
+		
+		help_2 = newImage("../graphics/help_2.gif");
+		help_0 = newImage("../graphics/help_0.gif");
+		
+		kontakty_2 = newImage("../graphics/kontakty_2.gif");
+		kontakty_0 = newImage("../graphics/kontakty_0.gif");
+		
+		korzina_2 = newImage("../graphics/korzina_2.gif");
+		korzina_0 = newImage("../graphics/korzina_0.gif");
+
+
+		preloadFlag = true;
+	}
+}
+
+
+
+
+
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_changeProp(objName,x,theProp,theValue) { //v6.0
+  var obj = MM_findObj(objName);
+  if (obj && (theProp.indexOf("style.")==-1 || obj.style)){
+    if (theValue == true || theValue == false)
+      eval("obj."+theProp+"="+theValue);
+    else eval("obj."+theProp+"='"+theValue+"'");
+  }
+}
+//-->
+</script>
+</head>
+
+<body ONLOAD="preloadImages();">
+<table width="750" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="141" rowspan="2" background="../graphics/logotip.gif"></td>
+    <td width="1" bgcolor="#3399ff"><img src="../graphics/blank.gif" width="1" height="1"></td>
+    <td width="605"><table width="604" height="93" border="0" cellpadding="0" cellspacing="0" bgcolor="#99CCFF">
+      <tr>
+        <td height="10" background="../graphics/hold.gif" bgcolor="#99ccff"></td>
+      </tr>
+      <tr>
+        <td height="70" align="center" bgcolor="#99ccff"><table width="600" border="0" cellspacing="0" cellpadding="0">
+            <tr align="center">
+              <td height="69"><A HREF="#"
+	ONMOUSEOVER="toggleImages('', new Array('novosti_3', '../graphics/novosti_2.gif')); return true;"
+	ONMOUSEOUT="toggleImages('novosti_3', new Array('novosti_3', '../graphics/novosti_0.gif'), '', new Array('novosti_3', '../graphics/novosti_3.gif')); return true;"
+	ONMOUSEUP="selected='novosti_3'; changeImages('novosti_3', '../graphics/novosti_0.gif'); return true;">
+	<IMG SRC="../graphics/novosti_3.gif" ALT="Новости" NAME="novosti_3" WIDTH=65 HEIGHT=65 BORDER=0 usemap="#novosti_3Map"></A></td> 
+
+			  <td><A HREF="#"
+	ONMOUSEOVER="toggleImages('', new Array('bestseller_3', '../graphics/bestseller_2.gif')); return true;"
+	ONMOUSEOUT="toggleImages('bestseller_3', new Array('bestseller_3', '../graphics/bestseller_0.gif'), '', new Array('bestseller_3', '../graphics/bestseller_3.gif')); return true;"
+	ONMOUSEUP="selected='bestseller_3'; changeImages('bestseller_3', '../graphics/bestseller_0.gif'); return true;">
+	<IMG SRC="../graphics/bestseller_3.gif" ALT="Бестселлеры" NAME="bestseller_3" WIDTH=65 HEIGHT=65 BORDER=0 usemap="#bestseller_3Map"></A></td>      
+
+			  <td><A HREF="#"
+	ONMOUSEOVER="toggleImages('', new Array('novinki_3', '../graphics/novinki_2.gif')); return true;"
+	ONMOUSEOUT="toggleImages('novinki_3', new Array('novinki_3', '../graphics/novinki_0.gif'), '', new Array('novinki_3', '../graphics/novinki_3.gif')); return true;"
+	ONMOUSEUP="selected='novinki_3'; changeImages('novinki_3', '../graphics/novinki_0.gif'); return true;">
+	<IMG SRC="../graphics/novinki_3.gif" ALT="Новинки" NAME="novinki_3" WIDTH=65 HEIGHT=65 BORDER=0 usemap="#novinki_3Map"></A></td>   			  
+			  
+ 			  <td><A HREF="#"
+	ONMOUSEOVER="toggleImages('', new Array('rasprod_3', '../graphics/rasprod_2.gif')); return true;"
+	ONMOUSEOUT="toggleImages('rasprod_3', new Array('rasprod_3', '../graphics/rasprod_0.gif'), '', new Array('rasprod_3', '../graphics/rasprod_3.gif')); return true;"
+	ONMOUSEUP="selected='rasprod_3'; changeImages('rasprod_3', '../graphics/rasprod_0.gif'); return true;">
+	<IMG SRC="../graphics/rasprod_3.gif" ALT="Распродажа" NAME="rasprod_3" WIDTH=65 HEIGHT=65 BORDER=0 usemap="#rasprod_3Map"></A></td>        
+	   
+ 			  <td><A HREF="#"
+	ONMOUSEOVER="toggleImages('', new Array('zagruzka_3', '../graphics/zagruzka_2.gif')); return true;"
+	ONMOUSEOUT="toggleImages('zagruzka_3', new Array('zagruzka_3', '../graphics/zagruzka_0.gif'), '', new Array('zagruzka_3', '../graphics/zagruzka_3.gif')); return true;"
+	ONMOUSEUP="selected='zagruzka_3'; changeImages('zagruzka_3', '../graphics/zagruzka_0.gif'); return true;">
+	<IMG SRC="../graphics/zagruzka_3.gif" ALT="Загрузка" NAME="zagruzka_3" WIDTH=65 HEIGHT=65 BORDER=0 usemap="#zagruzka_3Map"></A></td> 
+	  
+ 			  <td><A HREF="#"
+	ONMOUSEOVER="toggleImages('', new Array('help_3', '../graphics/help_2.gif')); return true;"
+	ONMOUSEOUT="toggleImages('help_3', new Array('help_3', '../graphics/help_0.gif'), '', new Array('help_3', '../graphics/help_3.gif')); return true;"
+	ONMOUSEUP="selected='help_3'; changeImages('help_3', '../graphics/help_0.gif'); return true;">
+	<IMG SRC="../graphics/help_3.gif" ALT="Помощь" NAME="help_3" WIDTH=65 HEIGHT=65 BORDER=0 usemap="#help_3Map"></A></td> 
+              
+ 			  <td><A HREF="#"
+	ONMOUSEOVER="toggleImages('', new Array('kontakty_3', '../graphics/kontakty_2.gif')); return true;"
+	ONMOUSEOUT="toggleImages('kontakty_3', new Array('kontakty_3', '../graphics/kontakty_0.gif'), '', new Array('kontakty_3', '../graphics/kontakty_3.gif')); return true;"
+	ONMOUSEUP="selected='kontakty_3'; changeImages('kontakty_3', '../graphics/kontakty_0.gif'); return true;">
+	<IMG SRC="../graphics/kontakty_3.gif" ALT="Контакты" NAME="kontakty_3" WIDTH=65 HEIGHT=65 BORDER=0 usemap="#kontakty_3Map"></A></td> 
+              
+ 			  <td><A HREF="#"
+	ONMOUSEOVER="toggleImages('', new Array('korzina_3', '../graphics/korzina_2.gif')); return true;"
+	ONMOUSEOUT="toggleImages('korzina_3', new Array('korzina_3', '../graphics/korzina_0.gif'), '', new Array('korzina_3', '../graphics/korzina_3.gif')); return true;"
+	ONMOUSEUP="selected='korzina_3'; changeImages('korzina_3', '../graphics/korzina_0.gif'); return true;">
+	<IMG SRC="../graphics/korzina_3.gif" ALT="Корзина" NAME="korzina_3" WIDTH=65 HEIGHT=65 BORDER=0 usemap="#korzina_3Map"></A></td> 
+            
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="10" background="../graphics/hold.gif" bgcolor="#99ccff"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td width="1" bgcolor="#3399FF"><img src="../graphics/blank.gif" width="1" height="1"></td>
+    <td height="18"><table width="604" height="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" bgcolor="#99ccff"><table width="600" border="0" cellspacing="0" cellpadding="0">
+          <tr align="center">
+            <td width="74"><img src="../graphics/g_1.gif" width="65" height="1"></td>
+            <td width="76"><img src="../graphics/g_1.gif" width="65" height="1"></td>
+            <td width="77"><img src="../graphics/g_1.gif" width="65" height="1"></td>
+            <td width="73"><img src="../graphics/g_1.gif" width="65" height="1"></td>
+            <td width="78"><img src="../graphics/g_1.gif" width="65" height="1"></td>
+            <td width="76"><img src="../graphics/g_1.gif" width="65" height="1"></td>
+            <td width="69"><img src="../graphics/g_1.gif" width="65" height="1"></td>
+            <td width="77"><img src="../graphics/g_1.gif" width="65" height="1"></td>
+          </tr>
+          <tr align="center">
+            <td><span class="m_title_menu" id="span_m_1" onMouseOver="MM_changeProp('span_m_1','','style.textDecoration','underline','SPAN')" onMouseOut="MM_changeProp('span_m_1','','style.textDecoration','none','SPAN')">Новости</span></td>
+            <td><span class="m_title_menu" id="span_m_2" onMouseOver="MM_changeProp('span_m_2','','style.textDecoration','underline','SPAN')" onMouseOut="MM_changeProp('span_m_2','','style.textDecoration','none','SPAN')">Бестселлеры</span></td>
+            <td><span class="m_title_menu" id="span_m_3" onMouseOver="MM_changeProp('span_m_3','','style.textDecoration','underline','SPAN')" onMouseOut="MM_changeProp('span_m_3','','style.textDecoration','none','SPAN')">Новинки</span></td>
+            <td><span class="m_title_menu" id="span_m_4" onMouseOver="MM_changeProp('span_m_4','','style.textDecoration','underline','SPAN')" onMouseOut="MM_changeProp('span_m_4','','style.textDecoration','none','SPAN')">Распродажа</span></td>
+            <td><span class="m_title_menu" id="span_m_5" onMouseOver="MM_changeProp('span_m_5','','style.textDecoration','underline','SPAN')" onMouseOut="MM_changeProp('span_m_5','','style.textDecoration','none','SPAN')">Загрузка</span></td>
+            <td><span class="m_title_menu" id="span_m_6" onMouseOver="MM_changeProp('span_m_6','','style.textDecoration','underline','SPAN')" onMouseOut="MM_changeProp('span_m_6','','style.textDecoration','none','SPAN')">Помощь</span></td>
+            <td><span class="m_title_menu" id="span_m_7" onMouseOver="MM_changeProp('span_m_7','','style.textDecoration','underline','SPAN')" onMouseOut="MM_changeProp('span_m_7','','style.textDecoration','none','SPAN')">Контакты</span></td>
+            <td><span class="m_title_menu" id="span_m_8" onMouseOver="MM_changeProp('span_m_8','','style.textDecoration','underline','SPAN')" onMouseOut="MM_changeProp('span_m_8','','style.textDecoration','none','SPAN')">Корзина</span></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td width="141" height="425" valign="top"><table width="101%" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="9" height="152" background="../graphics/q_2.gif"></td>
+        <td width="100%" bgcolor="#99ccff"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="45" colspan="3" class="m_title_l">Каталог литературы:</td>
+            </tr>
+          <tr>
+            <td width="7%" height="20" align="center" valign="bottom" class="m_catalog1"><img src="../graphics/w_1.gif" width="6" height="3"></td>
+			<td height="78%" colspan="1"  onMouseOver="MM_changeProp('span1','','style.fontWeight','bold','SPAN');MM_changeProp('span1_a','','style.color','#000099','SPAN')" onMouseOut="MM_changeProp('span1','','style.fontWeight','normal','SPAN');MM_changeProp('span1_a','','style.color','#3399ff','SPAN')"><span class="m_catalog1" id="span1" ;>Техническая</span></td>
+            <td width="15%" height="20" class="kolknig"><span id="span1_a" ;>21</span></td>
+          </tr>
+          <tr>
+            <td width="7%" height="20" class="m_catalog1"></td>
+           	<td width="78%" height="20" onMouseOver="MM_changeProp('span1_1','','style.fontWeight','bold','SPAN');MM_changeProp('span1_1_a','','style.color','#000099','SPAN')" onMouseOut="MM_changeProp('span1_1','','style.fontWeight','normal','SPAN');MM_changeProp('span1_1_a','','style.color','#3399ff','SPAN')"><span class="m_catalog2" id="span1_1" ;>Компьютерная</span></td>
+            <td width="15%" height="20" class="kolknig"><span id="span1_1_a" ;>5</span></td>
+          </tr>
+          <tr>
+            <td width="7%" height="20"></td>
+           	<td width="78%" height="20" onMouseOver="MM_changeProp('span1_2','','style.fontWeight','bold','SPAN');MM_changeProp('span1_2_a','','style.color','#000099','SPAN')" onMouseOut="MM_changeProp('span1_2','','style.fontWeight','normal','SPAN');MM_changeProp('span1_2_a','','style.color','#3399ff','SPAN')"><span class="m_catalog2" id="span1_2" ;>Радиотехническая</span></td>
+            <td width="15%" height="20" class="kolknig"><span id="span1_2_a" ;>6</span></td>
+          </tr>
+          <tr>
+            <td width="7%" height="20"></td>
+           	<td width="78%" height="20" onMouseOver="MM_changeProp('span1_3','','style.fontWeight','bold','SPAN');MM_changeProp('span1_3_a','','style.color','#000099','SPAN')" onMouseOut="MM_changeProp('span1_3','','style.fontWeight','normal','SPAN');MM_changeProp('span1_3_a','','style.color','#3399ff','SPAN')"><span class="m_catalog2" id="span1_3" ;>Автомототехника</span></td>
+            <td width="15%" height="20" class="kolknig"><span id="span1_3_a" ;>44</span></td>
+          </tr>
+          <tr>
+            <td width="7%" height="8"></td>
+            <td width="78%" height="8" class="m_catalog2"></td>
+            <td width="15%" height="8" class="kolknig"></td>
+          </tr>
+          <tr>
+            <td width="7%" height="20" align="center" valign="bottom" class="m_catalog1"><img src="../graphics/w_1.gif" width="6" height="3"></td>
+			<td height="78%" onMouseOver="MM_changeProp('span2','','style.fontWeight','bold','SPAN');MM_changeProp('span2_a','','style.color','#000099','SPAN')" onMouseOut="MM_changeProp('span2','','style.fontWeight','normal','SPAN');MM_changeProp('span2_a','','style.color','#3399ff','SPAN')"><span class="m_catalog1" id="span2" ;>Научная</span></td>
+            <td width="15%" height="20" class="kolknig"><span id="span2_a" ;>5</span></td>
+          </tr>
+          <tr>
+            <td width="7%" height="20"></td>
+           	<td width="78%" height="20" onMouseOver="MM_changeProp('span2_1','','style.fontWeight','bold','SPAN');MM_changeProp('span2_1_a','','style.color','#000099','SPAN')" onMouseOut="MM_changeProp('span2_1','','style.fontWeight','normal','SPAN');MM_changeProp('span2_1_a','','style.color','#3399ff','SPAN')"><span class="m_catalog2" id="span2_1" ;>Экономика</span></td>
+            <td width="15%" height="20" class="kolknig"><span id="span2_1_a" ;>12</span></td>
+          </tr>
+          <tr>
+            <td width="7%" height="20"></td>
+           	<td width="78%" height="20" onMouseOver="MM_changeProp('span2_2','','style.fontWeight','bold','SPAN');MM_changeProp('span2_2_a','','style.color','#000099','SPAN')" onMouseOut="MM_changeProp('span2_2','','style.fontWeight','normal','SPAN');MM_changeProp('span2_2_a','','style.color','#3399ff','SPAN')"><span class="m_catalog2" id="span2_2" ;>Медицина</span></td>
+            <td width="15%" height="20" class="kolknig"><span id="span2_2_a" ;>21</span></td>
+          </tr>
+		  <tr>
+            <td width="7%" height="20"></td>
+           	<td width="78%" height="20" onMouseOver="MM_changeProp('span2_3','','style.fontWeight','bold','SPAN');MM_changeProp('span2_3_a','','style.color','#000099','SPAN')" onMouseOut="MM_changeProp('span2_3','','style.fontWeight','normal','SPAN');MM_changeProp('span2_3_a','','style.color','#3399ff','SPAN')"><span class="m_catalog2" id="span2_3" ;>Психология</span></td>
+            <td width="15%" height="20" class="kolknig"><span id="span2_3_a" ;>21</span></td>
+          </tr>
+		  <tr>
+            <td width="7%" height="20"></td>
+           	<td width="78%" height="20" onMouseOver="MM_changeProp('span2_4','','style.fontWeight','bold','SPAN');MM_changeProp('span2_4_a','','style.color','#000099','SPAN')" onMouseOut="MM_changeProp('span2_4','','style.fontWeight','normal','SPAN');MM_changeProp('span2_4_a','','style.color','#3399ff','SPAN')"><span class="m_catalog2" id="span2_4" ;>История</span></td>
+            <td width="15%" height="20" class="kolknig"><span id="span2_4_a" ;>21</span></td>
+          </tr>
+		  <tr>
+            <td width="7%" height="20"></td>
+           	<td width="78%" height="20" onMouseOver="MM_changeProp('span2_5','','style.fontWeight','bold','SPAN');MM_changeProp('span2_5_a','','style.color','#000099','SPAN')" onMouseOut="MM_changeProp('span2_5','','style.fontWeight','normal','SPAN');MM_changeProp('span2_5_a','','style.color','#3399ff','SPAN')"><span class="m_catalog2" id="span2_5" ;>Философия</span></td>
+            <td width="15%" height="20" class="kolknig"><span id="span2_5_a" ;>15</span></td>
+          </tr>
+		  <tr>
+            <td width="7%" height="8"></td>
+            <td width="78%" height="8" class="m_catalog2"></td>
+            <td width="15%" height="8" class="kolknig"></td>
+          </tr>
+		  <tr>
+            <td width="7%" height="20" align="center" valign="bottom" class="m_catalog1"><img src="../graphics/w_1.gif" width="6" height="3"></td>
+			<td height="78%" onMouseOver="MM_changeProp('span3','','style.fontWeight','bold','SPAN');MM_changeProp('span3_a','','style.color','#000099','SPAN')" onMouseOut="MM_changeProp('span3','','style.fontWeight','normal','SPAN');MM_changeProp('span3_a','','style.color','#3399ff','SPAN')"><span class="m_catalog1" id="span3" ;>Документ-ая</span></td>
+            <td width="15%" height="20" class="kolknig"><span id="span3_a" ;>12</span></td>
+          </tr>
+		  <tr>
+            <td width="7%" height="8"></td>
+            <td width="78%" height="8" class="m_catalog2"></td>
+            <td width="15%" height="8" class="kolknig"></td>
+          </tr>
+		  <tr>
+            <td width="7%" height="20" align="center" valign="bottom" class="m_catalog1"><img src="../graphics/w_1.gif" width="6" height="3"></td>
+			<td height="78%" onMouseOver="MM_changeProp('span4','','style.fontWeight','bold','SPAN');MM_changeProp('span4_a','','style.color','#000099','SPAN')" onMouseOut="MM_changeProp('span4','','style.fontWeight','normal','SPAN');MM_changeProp('span4_a','','style.color','#3399ff','SPAN')"><span class="m_catalog1" id="span4" ;>Детская</span></td>
+            <td width="15%" height="20" class="kolknig"><span id="span4_a" ;>11</span></td>
+          </tr>
+		  <tr>
+            <td width="7%" height="8"></td>
+            <td width="78%" height="8" class="m_catalog2"></td>
+            <td width="15%" height="8" class="kolknig"></td>
+          </tr>
+		
+        </table>		</td>
+      </tr>
+      <tr>
+        <td><img src="../graphics/q_1.gif"></td>
+        <td background="../graphics/q_3.gif"></td>
+      </tr>
+    </table>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="5%"></td>
+        <td width="86%" valign="bottom" class="m_title_menu">&nbsp;</td>
+        <td width="5%" height="25"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td align="center"><form name="form2" method="post" action="">
+          <input  type="text" id="inp" value="Поиск" name="find"  size="16"
+		    onblur="if (value=='' &amp;&amp; !this.enter) value='Поиск'; else this.enter=true;"
+			onfocus="if (! this.enter) value='';">
+			
+			<span class="kolknig">&nbsp;</span><a href="#"><img src="../graphics/lupa.gif" width="16" height="16" border="0" align="middle"></a>                  
+        </form></td>
+        <td height="29"></td>
+      </tr>
+    </table></td>
+    <td width="1" bgcolor="#3399ff"><img src="../graphics/blank.gif" width="1" height="1"></td>
+    <td height="425" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="600" height="9"></td>
+        <td width="9" height="9" align="center"><img src="../graphics/z_0_g.gif" width="9" height="1"></td>
+        <td height="9"></td>
+        <td width="9" height="9" align="center"><img src="../graphics/z_0_g.gif" width="9" height="1"></td>
+        <td width="5" height="9"></td>
+        </tr>
+      <tr>
+        <td width="600" height="9" align="center"><img src="../graphics/z_0_v.gif" width="1" height="9"></td>
+        <td width="9" height="9" align="center"><img src="../graphics/z_lt.gif"></td>
+        <td height="9" align="center" background="../graphics/z_t.gif"><img src="../graphics/z_0_v.gif" width="1" height="9"></td>
+        <td width="9" height="9" align="center"><img src="../graphics/z_rt.gif" width="9" height="9"></td>
+        <td width="5" height="9"><img src="../graphics/z_0_v.gif" width="1" height="9"></td>
+        </tr>
+      <tr>
+        <td width="600" height="17">&nbsp;</td>
+        <td width="9" align="center" background="../graphics/z_l.gif"><img src="../graphics/z_0_g.gif" width="9" height="1"></td>
+        <td class="m_title_14">&nbsp;Техническая&nbsp;литература</td>
+        <td width="9" align="center" background="../graphics/z_r.gif"><img src="../graphics/z_0_g.gif" width="9" height="1"></td>
+        <td width="5"></td>
+        </tr>
+      <tr>
+        <td width="600" height="9" align="center"><img src="../graphics/z_0_v.gif" width="1" height="9"></td>
+        <td width="9" height="9" align="center"><img src="../graphics/z_lb.gif"></td>
+        <td height="9" align="center" background="../graphics/z_b.gif"><img src="../graphics/z_0_v.gif" width="1" height="9"></td>
+        <td width="9" height="9" align="center"><img src="../graphics/z_rb.gif" width="9" height="9"></td>
+        <td width="5" height="9"><img src="../graphics/z_0_v.gif" width="1" height="9"></td>
+        </tr>
+      <tr>
+        <td width="600" height="9"></td>
+        <td width="9" height="9" align="center"><img src="../graphics/z_0_g.gif" width="9" height="1"></td>
+        <td height="9" align="center"></td>
+        <td width="9" height="9" align="center"><img src="../graphics/z_0_g.gif" width="9" height="1"></td>
+        <td width="5" height="9">&nbsp;</td>
+        </tr>
+    </table>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="1%" height="23"></td>
+          <td width="8%" align="center" valign="middle"><img src="../graphics/bs.gif" width="19" height="20"></td>
+          <td width="1%" class="zz">&nbsp;</td>
+          <td width="78%"><span class="zz80">31.</span> <a href="#" class="zz">Разработка WEB-серверов для электронной  коммерции</a></td>
+          <td width="1%" class="zz">&nbsp;</td>
+          <td width="10%">&nbsp;</td>
+          <td width="1%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td align="center" valign="middle"><a href="#"><img src="../graphics/books/15435s.jpg" alt="Переход на страницу: Разработка WEB-серверов для электронной коммерции" width="40" height="57" border="1"></a></td>
+          <td>&nbsp;</td>
+          <td valign="top"><table width="100%" height="100%"  border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td class="zz80b">Шарма Вивек, Шарма Раджив </td>
+            </tr>
+            <tr>
+              <td height="7"></td>
+            </tr>
+            <tr>
+              <td><p><span class="zz80">цена: </span><span class="zz80_brown">$1,99</span></p>                </td>
+            </tr>
+            <tr>
+              <td height="7"></td>
+            </tr>
+            <tr>
+              <td class="zz80">Издательский дом &quot;Вильямс&quot;, 2002 г., 400 стр. </td>
+            </tr>
+          </table></td>
+          <td>&nbsp;</td>
+          <td align="center" valign="middle"><a href="#"><img src="../graphics/korzina.gif" alt="Добавить в корзину" width="60" height="60" border="0"></a></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="10" colspan="7"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="3" class="zz80">Эта книга представляет собой обзор различных языков программирования, которые можно эффективно использовать при разработке приложений для электронной коммерции, а также ... <a href="#">дальше</a> </td>
+          <td colspan="3">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="10" colspan="7"></td>
+        </tr>
+        <tr>
+          <td height="1"></td>
+          <td height="1" colspan="5" background="../graphics/razd.gif"></td>
+          <td height="1"></td>
+        </tr>
+		<tr>
+          <td height="10" colspan="7"></td>
+        </tr>
+		        <tr>
+          <td width="1%" height="23"></td>
+          <td width="8%" align="center" valign="middle"><img src="../graphics/bs.gif" width="19" height="20"></td>
+          <td width="1%" class="zz">&nbsp;</td>
+          <td width="78%"><span class="zz80">32.</span> <a href="#" class="zz">Электронный магазин на Java и XML </a></td>
+          <td width="1%" class="zz">&nbsp;</td>
+          <td width="10%">&nbsp;</td>
+          <td width="1%">&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td align="center" valign="middle"><a href="#"><img src="../graphics/books/24373s.jpg" alt="Переход на страницу: Разработка WEB-серверов для электронной коммерции" width="40" height="53" border="1"></a></td>
+          <td>&nbsp;</td>
+          <td valign="top"><table width="100%" height="100%"  border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td class="zz80b">Билл Брогден, Крис Минник</td>
+            </tr>
+            <tr>
+              <td height="7"></td>
+            </tr>
+            <tr>
+              <td><p><span class="zz80">цена: </span><span class="zz80_brown">$2,55</span></p>                </td>
+            </tr>
+            <tr>
+              <td height="7"></td>
+            </tr>
+            <tr>
+              <td class="zz80">Издательский дом &quot;Питер&quot;, 2002 г., 333 стр. </td>
+            </tr>
+          </table></td>
+          <td>&nbsp;</td>
+          <td align="center" valign="middle"><a href="#"><img src="../graphics/korzina.gif" alt="Добавить в корзину" width="60" height="60" border="0"></a></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="10" colspan="7"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="3" class="zz80">Цель этой книги - познакомить разработчиков с технологиями использования XML в программах на Java для электронной комерции. Для того чтобы построить эффективный комерческий сайт ... <a href="#">дальше</a> </td>
+          <td colspan="3">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="10" colspan="7"></td>
+        </tr>
+        <tr>
+          <td height="1"></td>
+          <td height="1" colspan="5" background="../graphics/razd.gif"></td>
+          <td height="1"></td>
+        </tr>
+		<tr>
+          <td height="10" colspan="7"></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="141"></td>
+    <td width="1" bgcolor="#3399ff"><img src="../graphics/blank.gif" width="1" height="1"></td>
+    <td height="1" bgcolor="#3399ff"></td>
+  </tr>
+  <tr>
+    <td width="141" height="52">&nbsp;</td>
+    <td width="1"><img src="../graphics/blank.gif" width="1" height="1"></td>
+    <td align="right" valign="top"><table width="20%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="25" align="center" valign="middle" bgcolor="#3399ff" class="m_domen">www.ramblet.ru</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<map name="novosti_3Map">
+  <area shape="rect" coords="1,1,64,64" href="#">
+</map>
+<map name="bestseller_3Map">
+  <area shape="rect" coords="1,1,64,64" href="#">
+</map>
+<map name="novinki_3Map">
+  <area shape="rect" coords="1,1,64,64" href="#">
+</map>
+<map name="rasprod_3Map">
+  <area shape="rect" coords="1,1,64,64" href="#">
+</map>
+<map name="zagruzka_3Map">
+  <area shape="rect" coords="1,1,64,64" href="#">
+</map>
+<map name="help_3Map">
+  <area shape="rect" coords="1,1,64,64" href="#">
+</map>
+<map name="kontakty_3Map">
+  <area shape="rect" coords="1,1,64,64" href="#">
+</map>
+<map name="korzina_3Map">
+  <area shape="rect" coords="1,1,64,64" href="#">
+</map>
+</body>
+</html>

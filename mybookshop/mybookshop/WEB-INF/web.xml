@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app PUBLIC
+"-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" 
+"http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <servlet>
+        <servlet-name>action</servlet-name>
+        <servlet-class>ActionServlet</servlet-class>
+        <init-param>
+            <param-name>action-mappings</param-name>
+            <param-value>actions</param-value>
+        </init-param>
+        <init-param>
+            <param-name>datasource-mappings</param-name>
+            <param-value>datasource</param-value>
+        </init-param>
+        <init-param>
+            <param-name>application-mappings</param-name>
+            <param-value>application</param-value>
+        </init-param>
+        <init-param>
+            <param-name>menu-mappings</param-name>
+            <param-value>menu</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>action</servlet-name>
+        <url-pattern>*.dll</url-pattern>
+    </servlet-mapping>
+
+    <taglib>
+        <taglib-uri>db-tags</taglib-uri>
+        <taglib-location>/WEB-INF/tlds/db.tld</taglib-location>
+    </taglib>
+
+    <taglib>
+        <taglib-uri>utilities-tags</taglib-uri>
+        <taglib-location>/WEB-INF/tlds/utilities.tld</taglib-location>
+    </taglib>
+
+    <taglib>
+        <taglib-uri>app-tags</taglib-uri>
+        <taglib-location>/WEB-INF/tlds/app.tld</taglib-location>
+    </taglib>
+
+    <taglib>
+        <taglib-uri>tokens-tags</taglib-uri>
+        <taglib-location>/WEB-INF/tlds/tokens.tld</taglib-location>
+    </taglib>
+
+    <taglib>
+        <taglib-uri>string-tags</taglib-uri>
+        <taglib-location>/WEB-INF/tlds/string.tld</taglib-location>
+    </taglib>
+</web-app>

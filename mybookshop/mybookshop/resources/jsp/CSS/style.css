@@ -1,0 +1,244 @@
+FONT.p {
+	FONT-SIZE: 14px
+}
+
+.kolknig {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #3399ff;
+	font-weight: bold;
+	font-size: 10px;
+	text-align: center;
+	cursor: default;
+}
+.m_title_l {
+	PADDING-RIGHT: 5px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	CURSOR: default;
+	COLOR: #666699;
+	FONT-FAMILY: Geneva, Arial, Helvetica, sans-serif;
+	LETTER-SPACING: 3px;
+	TEXT-ALIGN: left;
+}.m_domen {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: bold;
+	cursor: default;
+}
+.m_catalog1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000099;
+	text-align: left;
+	list-style-position: inside;
+	list-style-type: circle;
+	white-space: normal;
+	cursor: hand;
+	text-decoration: underline;
+	
+}
+.m_catalog2 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000099;
+	text-align: left;
+	list-style-position: inside;
+	list-style-type: circle;
+	white-space: normal;
+	cursor: hand;
+}
+.m_title_14 {
+	PADDING-RIGHT: 5px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	FILTER: Glow(color=#FFFFFF,Strength=1) DropShadow(Color=#D9D9D9,OffX=2,OffY=1);
+	CURSOR: default;
+	COLOR: #800000;
+	FONT-FAMILY: Verdana;
+	LETTER-SPACING: 1px;
+	TEXT-ALIGN: right;
+	font-style: normal;
+}
+.sign {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 8px;
+	FONT-FAMILY: Webdings;
+	color: #000099;
+}
+.signd {
+	FONT-WEIGHT: normal; FONT-SIZE: 14px; COLOR: #666666; FONT-STYLE: normal; FONT-FAMILY: Wingdings
+}
+.signi {
+	FONT-SIZE: 8px; COLOR: #03517e; FONT-FAMILY: Wingdings
+}
+.signs {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: normal; FONT-SIZE: 12px; VERTICAL-ALIGN: middle; FONT-FAMILY: Wingdings
+}
+.kolknig_a {
+
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000099;
+	font-weight: bold;
+	font-size: 10px;
+	text-align: center;
+	cursor: default;
+}
+.m_title_menu {
+	FONT-SIZE: 11px;
+	CURSOR: hand;
+	COLOR: #666699;
+	FONT-FAMILY: Geneva, Arial, Helvetica, sans-serif;
+	TEXT-ALIGN: left;
+	font-weight: bold;
+}
+.m_title_menu_a {
+	FONT-SIZE: 11px;
+	CURSOR: default;
+	COLOR: #000099;
+	FONT-FAMILY: Geneva, Arial, Helvetica, sans-serif;
+	TEXT-ALIGN: left;
+	font-weight: bold;
+}
+
+
+
+INPUT {
+	BORDER-RIGHT: #99ccff 1px solid; BORDER-TOP: #99ccff 1px solid; FONT-SIZE: 10px; BACKGROUND: #f3f7ff; BORDER-LEFT: #99ccff 1px solid; COLOR: #000099; BORDER-BOTTOM: #99ccff 1px solid; FONT-FAMILY: Verdana, Arial, sans-serif
+}
+
+
+.zz {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR:  #666699; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+
+.s {
+	FONT-SIZE: 14px; BACKGROUND-COLOR: white
+}
+
+BODY {
+	BACKGROUND-COLOR: white
+}
+TD {
+	COLOR: #222222; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+
+UL {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px
+}
+OL {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px
+}
+A {
+	COLOR: #666699; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.zz80 {
+	font-size: 80%;
+}
+.zz80b {
+	font-size: 80%;
+	font-weight: bold;
+}
+.zz80_brown {
+	font-size: 80%;
+	color: #663300;
+}
+.m_catalog1_a {
+
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000099;
+	text-align: left;
+	list-style-position: inside;
+	list-style-type: circle;
+	white-space: normal;
+	cursor: default;
+	text-decoration: underline;
+}
+.m_catalog2_a {
+
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000099;
+	text-align: left;
+	list-style-position: inside;
+	list-style-type: circle;
+	white-space: normal;
+	cursor: default;
+}
+.nav_a {
+	
+	font-size: 12px;
+	font-weight: normal;
+	color: #800000;
+	cursor: default;
+}
+.nav {
+	
+	font-size: 12px;
+	font-weight: normal;
+	color: #666699;
+	cursor: default;
+	text-align:center;
+}
+.nav_i {
+	COLOR: #800000;
+	font-size: 10px;
+	font-weight: normal;
+	cursor: default;
+	text-align:left;
+	vertical-align: middle;
+}
+
+.blank {
+	
+	font-size: 12px;
+	TEXT-DECORATION: underline;
+	cursor: default;
+	color: #ffffff;
+}
+
+.voterz {
+	text-align:center;
+	BORDER-RIGHT: 10px solid #3399ff;
+	BORDER-TOP: 10px solid #99ccff;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 14px;
+	MARGIN: 5px;
+	BORDER-LEFT: 10px solid #99ccff;
+	BORDER-BOTTOM: 10px solid #3399ff;
+	FONT-FAMILY: Tahoma;
+	BACKGROUND-COLOR: #F3f7ff;
+	padding: 5px;
+}
+
+
+.unnamed1 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #CC0066;
+}
+.tk {
+	font-size: 60%;
+	font-weight: bold;
+	font-family: Tahoma;
+	
+}
+.fk {
+
+	font-size: 60%;
+	font-weight: normal;
+	font-family: Tahoma;
+}
+.rk {
+	font-family: Tahoma;
+	font-size: 80%;
+}
+.ck {
+	font-family: Tahoma;
+	font-size: 70%;
+	color: #999999;
+}
